@@ -12,7 +12,7 @@ export default function App() {
       <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white font-sans">
         {/* Header */}
         <header className="p-6 flex justify-between items-center shadow-md">
-          <img src="/logo.png" alt="SoftSell Logo" className="h-16 w-auto" />
+          <img src="/logo.png" alt="SoftSell Logo" className="h-18 w-auto" />
           <button
             onClick={() => setDarkMode(!darkMode)}
             className="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded"
